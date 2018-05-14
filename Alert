@@ -1,1 +1,26 @@
-[5/13/2018]: Version 2.0.8 is now being finalized by the developer. It will be released soon!
+[5/13/2018]: Version 2.0.8 is now released for testing!
+Change Log:
+
+  Fixed an issue with:
+	Arrow keys not moving highlight.
+	Correct show being highlighted after entering fullscreen.
+	Only PNG images showing up as backgrounds.
+
+  Added:
+	Application will now:
+		detect a full fail to end of stream, and can inform the server when this happens. This does not include automatic or manual fail overs.
+		Open the action bar while in fullscreen mode if mouse is near.		
+		Bring full show into view on mouse click.
+	Arrows to overlay in fullscreen for changing channel.
+	Touch support in fullscreen and on player. (Un-Tested)
+	Speaker icon for quick mute.
+	Go back icon in mini and full video player for quickly going to your last played channel. (Also added the backspace hotkey!)
+	Support for JPG images as backgrounds. (That should have already been supported!)
+
+  Changed:
+	Removed close button, Replaced with arrow at the top of the settings window.
+	Message when end of streams is reach (When there were avaiable streams to play, and when there wasn't)
+	Logic for mouse over highlight.
+	Alerts will now be in order of most recent.
+	Mouse wheel will no longer scroll channels.
+	Mini video overlay will no longer appear when new channel is played.
