@@ -1,1 +1,8 @@
-[5/26/2018]: Version 2.0.10 is a re-released of 2.0.9 to force update.
+[6/03/2018]: Version 2.0.11 is a released.
+Change Log:
+ Fixed an issue with:
+  Crashing when clicking enter after highlighting a channel with mouse hover.
+  Split highlighting (Again).
+ Added:
+  Using \ will now place cursor off of guide to prevent issue's with highlighting.
+
